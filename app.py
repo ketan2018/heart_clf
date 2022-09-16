@@ -4,10 +4,6 @@ import pickle
 import pandas as pd
 import requests
 from streamlit_lottie import st_lottie 
-# import streamlit as st
-# st.title("""Heart Disease Prediction App""")
-# with open('style.css') as f:
-#     st.markdown(f'<style>{f.read()}</style>', unsafe_allow_html=True)
 
 
 st.markdown(""" <style> .mine {
@@ -77,17 +73,7 @@ with col12:
 
 
 
-# cp_value = st.sidebar.selectbox('cp',('3','2','1','0'))
-# sex_value = st.sidebar.selectbox('sex',('1','0'))
-# restecg_value = st.sidebar.selectbox('restecg',('0','1','2'))
-# trestbps_value = st.sidebar.slider('trestbps', 94,200,110)
-# exang_value = st.sidebar.selectbox('exang',('0','1'))
-# chol_value= st.sidebar.slider('chol', 126,564,250)
-# slope_value=st.sidebar.selectbox('slope',('0','2','1'))
-# ca_value=st.sidebar.selectbox('ca',('0','2','1','3','4'))
-# thal_value=st.sidebar.selectbox('thal',('0','2','1','3'))
-# thalach_value=st.sidebar.slider('thalach', 70,202,160)
-# old_peak_value=st.sidebar.slider('oldpeak', 0.0,6.2,3.2)
+
 
 chest_pain={'Typical Angina': 0,'Atypical Angina':1,'Non Anginal Pain': 2,'Asymptomatic':3}
 
